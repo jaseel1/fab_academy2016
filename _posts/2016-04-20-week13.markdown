@@ -1,0 +1,140 @@
+---
+layout: post
+title:  Output Devices
+date:   2016-04-27 18:05:24 +0530
+categories: jekyll update
+---
+
+ [Notes](http://academy.cba.mit.edu/classes/output_devices/index.html)
+
+**Assignement**
+
+>   add an output device to a microcontroller board you've designed and program it to do something
+
+
+What i am going to do
+======================
+
+>I want to make a speedometer using LED Arrays using a Optical Encoders.
+
+
+
+Optical Encoder
+===============
+An optical encoder is an electromechanical device which has an electrical output  proportional to the angular position of the input shaft.
+
+It is normally used for Closed Loop Control in Printers,CNC Machines etc...
+
+Encoder Principle: ![Encoder ]({% asset_path encoderworking.jpg%})
+Encoder Attached to Motor: ![Encoder ]({% asset_path encoder2.jpg%})
+
+Reading from Encoder
+====================
+I am using Quadrature Encoder which have Two digital outputs (Channel A and Channel B) ,Quardrature encoder gives direction of rotation using this two channels
+
+Quadrature Encoder Working: ![Quadrature Encoder ]({% asset_path quadrature.jpg%})
+
+I got a Quadrature Encoder from an OLD Printer ,thats shown below .
+Encoder from Old Printer: ![Mini Motor Printer Encoder  ]({% asset_path minimotorencoder.jpg%})
+
+We can easily get direction and no of rotations from analyzing this outputs.
+Encoder Channel analyzing: ![Encoder CRO ]({% asset_path encoder_cro.jpg%})
+
+
+[Charlieplexing](https://en.wikipedia.org/wiki/Charlieplexing)
+==========================
+I want to display Motor RPM using a LED array for that iam using Charlieplexing Technique.  a Charlieplexing is a technique for driving Multiplexed LEDs in which relatively few I/O pins Microcontrollers.
+ATtiny45 have only 6 IO pins if we need to control 6 LEDS normally we want 6 PINS , But if you are using Charlieplexing you can control (n2 − n) LEDs. where 'n' is no of available pins .
+
+Charlieplexing Chart: ![Charlieplexing Chart]({% asset_path charlieplexingsheet.png%})
+
+LED Array Circuit Diagram
+=================================
+I designed a 6 LED using 3 Pins Circuit in Eagle , in Eagle Layout You can see the LED Array arrangements .
+Charlieplexing ATtiny45: ![Encoder ]({% asset_path charlieplexing3pins.jpg%})
+Eagle Layout: ![Charlieplexing Eagle ]({% asset_path charlieplexingeagle.png%})
+
+Board
+=======================
+I arranged PCB Board in a circular shape for displaying LEDs in the form of a speedometer.
+
+Eagle Board: ![Charlieplexing Eagle Board]({% asset_path cpboard.png%})
+Stuffed PCB : ![Encoder CRO ]({% asset_path pcbround.jpeg%})
+
+Programming
+==========================
+I used Attiny45 + Arduino , [Charlieplex Library](http://playground.arduino.cc/Code/Charlieplex) available in arduino . That is very easy but you need to understand working of Charlieplexing Circuits .
+
+First I Programmed a simple charlieplexing  Running Light .
+
+Code :  
+
+
+    #include <Charlieplex.h>
+    const int ledpin1 = 2;    // Charlieplexed for 6 LEDs
+    const int ledpin2 = 1;
+    const int ledpin3 = 0;
+    #define NUMBER_OF_PINS 3
+    //define pins in the order you want to adress them
+    byte pins[] = {ledpin1, ledpin2, ledpin3};
+    //initialize object
+    Charlieplex charlieplex = Charlieplex(pins , NUMBER_OF_PINS);
+    //individual 'pins' , adress charlieplex pins as you would adress an array
+    charliePin led1 = { 0 , 1 }; // Set the pins the LEDs are connected to.
+    charliePin led2 = { 1 , 2 }; // If the wrong LED lights, change it here.
+    charliePin led3 = { 2 , 0 };
+    charliePin led4 = { 0 , 2 };
+    charliePin led5 = { 2 , 1 };
+    charliePin led6 = { 1 , 0 };
+    void setup(){
+    /*nothing*/
+    }
+    void loop(){
+    charlieplex.charlieWrite(led1,HIGH);
+    delay(1000);
+    charlieplex.clear();    // Must clear the LED to avoid lighting additional LEDs unintentionally
+                      // This sets all 3 pins as an input
+    charlieplex.charlieWrite(led2,HIGH);
+    delay(1000);
+    charlieplex.clear();
+
+    charlieplex.charlieWrite(led3,HIGH);
+    delay(1000);
+    charlieplex.clear();    // Must clear the LED to avoid lighting additional LEDs unintentionally
+                      // This sets all 3 pins as an input
+    charlieplex.charlieWrite(led4,HIGH);
+    delay(1000);
+    charlieplex.clear();
+    charlieplex.charlieWrite(led5,HIGH);
+    delay(1000);
+    charlieplex.clear();    // Must clear the LED to avoid lighting additional LEDs unintentionally
+                      // This sets all 3 pins as an input
+    charlieplex.charlieWrite(led6,HIGH);
+    delay(1000);
+    charlieplex.clear();
+
+
+
+    }
+
+Video :
+
+
+
+
+
+Final Output
+==============
+
+
+New Things I Learned
+==================
+
+Problems Faced and Solutions
+==================
+
+Tips
+=====
+
+To do
+=========

@@ -1,0 +1,7 @@
+---
+layout: post
+title:  3D scanning and printing
+date:   2016-02-24 18:05:24 +0530
+categories: jekyll update
+---
+I will update soon......

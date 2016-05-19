@@ -1,0 +1,128 @@
+---
+layout: post
+title:  Moulding and Casting
+date:   2016-04-20 18:05:24 +0530
+categories: jekyll update
+---
+
+[lecture]() [Notes](http://academy.cba.mit.edu/classes/molding_casting/index.html)
+
+**Assignement**
+
+>  design a 3D mold, machine it, and cast parts from it
+
+
+What i am going to do
+======================
+
+I want to make a casted wrist band using rubber .
+
+ : ![sand Casting ]({% asset_path moulding.gif%})
+
+ Courtesy : http://www.technologystudent.com/equip1/poly2.htm
+
+
+
+
+Mould
+===========
+
+
+I had done sand casting in my college days
+Courtesy : http://www.custompartnet.com/wu/SandCasting : ![sand Casting ]({% asset_path sand-casting-mold.png%})
+ ,now i am going to make a real mould in wax,We are using **Machinable Wax** for it .
+
+Why Using Machinable Wax?
+===========================
+
+Machinable Wax is a very hard Wax having **High Melting Point** specially designed for Machining Applications .
+
+
+Mould Designing in Rhino
+==========================
+I designed a Negative Mould in Rhino  for my Wrist Band, What is Negative Mould ? You Can easily understand by looking the following picture.
+
+ : ![Negative Mould]({% asset_path negativeand positive.JPG%})
+
+A)Positive Mould b)Negative Mould
+
+Source :http://www.fibre-reinforced-plastic.com/2011_12_01_archive.html
+
+Rhino Designing Screenshots
+=================================
+
+: ![Rhino Fab Academy Moulding ]({% asset_path rhinoss1.png%})
+: ![Rhino Fab Academy Moulding 2 ]({% asset_path rhinoss2.png%})
+: ![Rhino Fab Academy Moulding 3]({% asset_path rhinoss3.png%})
+
+
+Yaa, I created a mould design in Rhino , Now it is ready to Export to **.STL** format for Milling in Modella or ShopBot .
+[Download Rhino File]({% asset_path wristband.3dm%})
+
+Milling Mould in Modella
+=======================
+
+Modella supports **STL** file thats a new information to me also have an option to convert **.STL** to **.PNG** , I used 1/8" Bits for both Rough Cut and Finishing Cut .
+
+Rough Cut and Finishing Cut
+==========================
+This 2 level cuting method saves energy and time also gives a good finishing , Yaa rough cut removes major portion of the unwanted wax by milling and same time finishing cuts makes smooth and accurate.
+
+: ![Rough Cut Pic with Bit  ]({% asset_path roughcut.jpg%}): ![Finishing Cut  with Bit  ]({% asset_path finishingcut.jpg%})
+
+Yaa, Mould is Ready . Next step is Casting.
+
+
+Casting Process
+==============
+
+This is the process of filling mould by which material we want to use ie, Rubber, Silicone,Plastic,Metal etc...
+
+Now i am going to use Silicone Rubber(SORTA Clear 37)
+
+SORTA Clear 37
+==============
+It is a Water white translucent silicone rubbers which cure at room temperature with negligible shrinkage and feature high tensile and tear strength.
+
+
+SORTA Clear Part A and Part B: ![SORTA CLear Part A ]({% asset_path sortaclear.jpg%})
+
+
+List of Materials needs for Casting
+==================================
+1.Mould
+2.Sorta Clear 37 :Part A
+3.Sorta Clear 37 :Part B
+4.Water
+5.Plastic Cup
+6.Wooden Stick
+7.Aluminium Foil
+8.Patience :) :) Your Patience will indicate in your final Result .
+
+: ![Casting Materials]({% asset_path materials.jpg%})
+
+Process
+=======
+
+1.First fill your Mould with water and pour that water into a Vaccant Glass (It is for measuring the volume of mould)
+2.Take Part A and Part B in  Glasses (Equal to 1/2 Volume of Mould)
+3:Mix It(1:1 Ratio)
+4:Add  1 drop of Coloring Agent(If you need color)
+5.Pour the mixed material carefully to Mould (Be careful to air bubbles that makes holes in final product)
+6.Remove Unwanted Material from Mould
+7.Wait 4 Hours then Open the Mould
+
+: ![Casting Process]({% asset_path process1.jpg%})
+: ![Casting Process ]({% asset_path process2.jpg%})
+
+Wait 4 Hours to set .
+
+Finished Product
+=================
+: ![Silicone Rubber Wrist Band DIY shot 1]({% asset_path finalshot1.jpg%})
+: ![Silicone Rubber Wrist Band DIY shot 2]({% asset_path finalshot2.jpg%})
+
+To do
+=========
+
+Video of the process

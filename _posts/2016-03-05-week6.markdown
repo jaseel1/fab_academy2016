@@ -1,0 +1,115 @@
+---
+layout: post
+title:  Electronics design
+date:   2016-03-02 18:05:24 +0530
+categories: jekyll update
+---
+
+Assignement
+
+>Redesign the echo hello-world board by adding atleast a button and LED.
+
+By using this type of tools
+
+/* [123D Circuits](http://www.123dapp.com/circuits)
+[Eagle](http://www.cadsoftusa.com)
+[Fritzing](http://fritzing.org/home/)
+[Altium](http://www.altium.com/)
+[Circuit Maker](http://circuitmaker.com/)
+[PCB Works](http://www.pcbworks.com/)
+[orCad](http://www.orcad.com/)
+[LTspice](http://www.linear.com/designtools/software/)
+
+I have previous experience with [Fritzing](http://fritzing.org/home/) and [Eagle](http://www.cadsoftusa.com).Thats why i want to try 123D.I heard that name in many places especialy  in [Instructables](instructables.com).
+
+I started with [123D Circuits](http://www.123dapp.com/circuits) i got some advice like "123D is easy to use for beginers but it is not good for complex circuits" .
+
+>I want to add a Button and LED to Hello ISP Board ,when pressing buttun LED will glow.
+
+My 123D Circuit: ![gras]({% asset_path 123d.png%})
+
+Selection of Proper components is little difficult in 123D footprint is important and we are using SMD Components only,I added the following components.
+
+
+Circuit Diagram
+<iframe frameborder='0' height='448' marginheight='0' marginwidth='0' scrolling='no' src='https://123d.circuits.io/circuits/1724910-final-hello-toss/embed#schematic' width='650'></iframe>
+PCB Layout
+<iframe frameborder='0' height='448' marginheight='0' marginwidth='0' scrolling='no' src='https://123d.circuits.io/circuits/1724910-final-hello-toss/embed#pcb' width='650'></iframe>
+
+Bill of Materials : ![BOM]({% asset_path components.png%})
+
+
+ 123D have an option to add extra components out of their librarry ,users can design their own componnet footprints,and it also have an option to import [Eagle](http://www.cadsoftusa.com) projects.
+
+**Gerber to PNG Traces**
+
+>Gerber is a standard electronics industry file format used to communicate design information to manufacturing for many types of printed circuit boards.
+
+You can download 'Gerber' in .Zip format from 123D ![download Gerber]({% asset_path downloadgerber.png%})
+
+ I want **.png** format for milling the PCB ,but now i have only **Gerber** files .I found an online Tool [http://circuitpeople.com](http://circuitpeople.com/) .it is very simple to use.
+
+You Can Upload your Gerber file in .Zip format to Circuit People](http://circuitpeople.com/)
+
+![Circuit People]({% asset_path circuitpeople.png%})
+
+Then We can view all the Gerber files in .png format,also have an option to download all images in a single zip file.
+
+![gerber to png out]({% asset_path pngout.png%})
+
+
+**PNG Files Output**
+
+![gerber to png out]({% asset_path circuit.gbo.png%})
+![gerber to png out]({% asset_path circuit.gbs.png%})![gerber to png out]({% asset_path circuit.gtl.png%})
+
+
+![gerber to png out]({% asset_path circuit.gbl.png%})
+
+![gerber to png out]({% asset_path circuit.gto.png%})
+![gerber to png out]({% asset_path circuit.gts.png%})
+![gerber to png out]({% asset_path circuit.outline.png%})
+
+**Circuit Designing using Eagle**
+
+I got PNG files from 123D but i want to learn Eagle Also ,Thats why i designed same circuit in Eagle,
+If you are installing Fab Library for Eagle, you will get exact Fablab Components easily ,You can download Fablab Eagle Library from Here.
+
+Eagle is so professional compared to 123D.
+![Eagle Screenshot]({% asset_path eagle.png%})
+
+
+
+When You are exporting (FIle>Export>image)  PNG from Eagle you should tick Monochrome ,Make 600 dpi minimum dpi(I used 1000dpi) and Trace Width(File>Design Rules) to 20 Mil.
+![Eagle Export]({% asset_path eagleexport.png%})
+![Eagle Design Rules]({% asset_path eagledr.png%})
+
+[Download Eagle File]({% asset_path Jaseel_eagle_hello.sch%})
+
+**PCB Milling**
+
+ I already expalained in [Week 4:Electronics Production](http://archive.fabacademy.org/archives/2016/fablabtrivandrum/students/390/jekyll/update/2016/02/17/week4.html)  how to mill PCB from PNG
+
+Milling In Modella
+![Eagle Screenshot]({% asset_path pcbmilling.jpg%})
+![Eagle Screenshot]({% asset_path pcbmillingwithmodella.jpg%})
+Completed Milling
+![Eagle Screenshot]({% asset_path aftermilling.jpg%})
+[Rashid](http://archive.fabacademy.org/archives/2016/fablabtrivandrum/students/394/index.html) created a nice SMD components box ,It is very useful
+![Eagle Screenshot]({% asset_path componentsboard.jpg%})
+Soldering
+![Eagle Screenshot]({% asset_path tosoldering.jpg%})
+![Eagle Screenshot]({% asset_path jaseel soldering.jpg%})
+
+Final Shot
+![Eagle Screenshot]({% asset_path heroshot.jpg%})
+
+
+Then..... Board is Ready How to Program ? I am explaining in [Week 8 :Embedded Programing](http://archive.fabacademy.org/archives/2016/fablabtrivandrum/students/390/jekyll/update/2016/03/16/week8.html)
+
+To do
+====
+
+
+Q&A
+===

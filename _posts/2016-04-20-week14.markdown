@@ -1,0 +1,32 @@
+---
+layout: post
+title:  Composites
+date:   2016-04-27 18:05:24 +0530
+categories: jekyll update
+---
+
+ [Notes](http://academy.cba.mit.edu/classes/output_devices/index.html)
+
+**Assignement**
+
+>   add an output device to a microcontroller board you've designed and program it to do something
+
+
+What i am going to do
+======================
+
+>I want to make a speedometer using LED Arrays using a Optical Encoders.
+
+
+
+New Things I Learned
+==================
+
+Problems Faced and Solutions
+==================
+
+Tips
+=====
+
+To do
+=========

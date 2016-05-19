@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="home">
+
+<!--<img src="portrait.jpg" width="50%" align="right">-->
+      <div class="content">
+  <p>My Name is Muhammed Jassel P ,I am pursing Fab Academy 2016 course at  <a href ="http://archive.fabacademy.org/archives/2016/fablabtrivandrum/">Fablab Trivandrum </a> with the assistance of our remote tutor <a href =" http://fabacademy.org/archives/2013/students/sanchez.francisco/">Francisco Sanchez</a>
+
+<h4>About Me</h4>
+I am very Passionate about learning and sharing new technologies,Currently i trained 1000+ students in various technologies,Arduino,IoT,Embedded System,Robotics and Mobile Development. Now i am a Technology Innovation Fellow of Kerala Startup Mission .</p>
+
+<ul>
+  <li><a href="http://twitter.com/jaseelmjp1">Twitter</a></li>
+  <li><a href="https://github.com/jaseel1">GitHub</a></li>
+  <li><a href="http://instagram.com/jaseel1/">Instagram</a></li>
+  <li><a href="http://www.flickr.com/photos/jaseel1/">Flickr</a></li>
+  <li><a href="http://www.facebook.com/jaseelpmuhammed">Facebook</a></li>
+</ul>
+
+</div>
+
+  <h1 class="page-heading"></h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+
+</div>

@@ -1,0 +1,71 @@
+---
+layout: post
+title:  Input Devices
+date:   2016-03-16 18:05:24 +0530
+categories: jekyll update
+---
+**Assignement**
+
+>  measure something: add a sensor to a microcontroller board that you have designed and read it
+
+**What I am going to do**
+
+>I want to make an accelerometer board that will communicate with a GUI
+
+
+Accelerometer
+================
+
+Accelerometer is an Micro-Electro-Mechanical Systems device to meassure acceleration forces,it convert mechanical acceleretions to electrical signals.
+
+I followed following youtube video and [This PDF](http://users.ecs.soton.ac.uk/mk1/2prin.pdf) to understand about accelerometr working principle.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i2U49usFo10" frameborder="0" allowfullscreen></iframe>
+
+
+In our Fablab Inventory we have MMA845 Accelerometer
+
+
+first i want to study working of MMA845 Accelerometer ,[Datasheet](http://www.nxp.com/files/sensors/doc/data_sheet/MMA8452Q.pdf)
+
+: ![16qfn Accelerometer]({% asset_path 16qfn.png%})
+
+
+: ![16qfn Accelerometer]({% asset_path 16qfn2.png%})
+
+
+
+: ![16qfn Accelerometer]({% asset_path 16qfn4.png%})
+
+
+I tried to use this accelerometer in my board but the problem is MMA845 have very small foot print pad size(8 mil) , we need 1/128" bit for milling this size, but  we  have 1/64" and 1/32" bit only.
+
+I have an ADXL 345 Accelerometer , i am going to interface with attiny45 and communicate to GUI via serial .
+: ![adxl 345 Accelerometer]({% asset_path adxl345.jpg%})
+We are using I2C Connection .
+
+
+I2C Connection Between ADXL 345 and ATtiny45
+==============
+: ![adxl 345 Accelerometer]({% asset_path Adxli2cattiny45.png%})
+
+
+I designed circuit in eagle,I used **pinhead** Component library for adding 6 Pin header for my accelerometer board, and i followed Neil's ADXL343 Board for referance .
+
+: ![adxl 345 Accelerometer Eagle Layout]({% asset_path adxl345layout.png%})
+ : ![adxl 345 Accelerometer Eagle Board]({% asset_path adxl345board.png%})
+
+Download Eagle Files [.Brd]({% asset_path adxl345.brd%}) [.Sch]({% asset_path adxl345.sch%})
+
+
+
+After Milling and Stuffing
+: ![adxl 345 Accelerometer Milling]({% asset_path adxl345board.jpg%})
+Back Side of Board
+: ![adxl 345 Accelerometer Milling Back ]({% asset_path adxl345back.jpg%})
+
+
+I used [Neils ADXL 343](http://academy.cba.mit.edu/classes/input_devices/index.html)  Code to Showing Accelerometer values in GUI.
+
+
+Final Result
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-sC5QA0Epic" frameborder="0" allowfullscreen></iframe>

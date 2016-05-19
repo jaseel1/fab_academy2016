@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jaseel&#39;s Fab Academy</title>
+    <description>This is Jaseel&#39;s Fab Academy 2016 documentation website.</description>
+    <link>http://archive.fabacademy.org/home/</link>
+    <atom:link href="http://archive.fabacademy.org/home/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 19 May 2016 12:38:37 +0530</pubDate>
+    <lastBuildDate>Thu, 19 May 2016 12:38:37 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Interface and Application Programming</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://academy.cba.mit.edu/classes/interface_application_programming/index.html&quot;&gt;Notes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Assignement&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;write an application that interfaces with an input &amp;amp;/or output device that you made&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;what-i-am-going-to-do&quot;&gt;What i am going to do&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I want to make a speedometer using LED Arrays using a Optical Encoders.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;board&quot;&gt;Board&lt;/h1&gt;
+
+&lt;h1 id=&quot;programming&quot;&gt;Programming&lt;/h1&gt;
+
+&lt;h1 id=&quot;final-output&quot;&gt;Final Output&lt;/h1&gt;
+
+&lt;h1 id=&quot;new-things-i-learned&quot;&gt;New Things I Learned&lt;/h1&gt;
+
+&lt;h1 id=&quot;problems-faced-and-solutions&quot;&gt;Problems Faced and Solutions&lt;/h1&gt;
+
+&lt;h1 id=&quot;tips&quot;&gt;Tips&lt;/h1&gt;
+
+&lt;h1 id=&quot;to-do&quot;&gt;To do&lt;/h1&gt;
+</description>
+        <pubDate>Wed, 27 Apr 2016 18:05:24 +0530</pubDate>
+        <link>http://archive.fabacademy.org/home/jekyll/update/2016/04/27/week16.html</link>
+        <guid isPermaLink="true">http://archive.fabacademy.org/home/jekyll/update/2016/04/27/week16.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Networking and Communications</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://academy.cba.mit.edu/classes/networking_communications/index.html&quot;&gt;Notes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Assignement&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;add an output device to a microcontroller board you’ve designed and program it to do something&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;https://learn.sparkfun.com/tutorials/i2c&lt;/p&gt;
+
+&lt;p&gt;I2C requires a mere two wires, like asynchronous serial, but those two wires can support up to 1008 slave devices.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-i-am-going-to-do&quot;&gt;What i am going to do&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I want to make a speedometer using LED Arrays using a Optical Encoders.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;board&quot;&gt;Board&lt;/h1&gt;
+
+&lt;h1 id=&quot;programming&quot;&gt;Programming&lt;/h1&gt;
+
+&lt;h1 id=&quot;final-output&quot;&gt;Final Output&lt;/h1&gt;
+
+&lt;h1 id=&quot;new-things-i-learned&quot;&gt;New Things I Learned&lt;/h1&gt;
+
+&lt;h1 id=&quot;problems-faced-and-solutions&quot;&gt;Problems Faced and Solutions&lt;/h1&gt;
+
+&lt;h1 id=&quot;tips&quot;&gt;Tips&lt;/h1&gt;
+
+&lt;h1 id=&quot;to-do&quot;&gt;To do&lt;/h1&gt;
+</description>
+        <pubDate>Wed, 27 Apr 2016 18:05:24 +0530</pubDate>
+        <link>http://archive.fabacademy.org/home/jekyll/update/2016/04/27/week15.html</link>
+        <guid isPermaLink="true">http://archive.fabacademy.org/home/jekyll/update/2016/04/27/week15.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Composites</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://academy.cba.mit.edu/classes/output_devices/index.html&quot;&gt;Notes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Assignement&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;add an output device to a microcontroller board you’ve designed and program it to do something&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;what-i-am-going-to-do&quot;&gt;What i am going to do&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I want to make a speedometer using LED Arrays using a Optical Encoders.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;new-things-i-learned&quot;&gt;New Things I Learned&lt;/h1&gt;
+
+&lt;h1 id=&quot;problems-faced-and-solutions&quot;&gt;Problems Faced and Solutions&lt;/h1&gt;
+
+&lt;h1 id=&quot;tips&quot;&gt;Tips&lt;/h1&gt;
+
+&lt;h1 id=&quot;to-do&quot;&gt;To do&lt;/h1&gt;
+</description>
+        <pubDate>Wed, 27 Apr 2016 18:05:24 +0530</pubDate>
+        <link>http://archive.fabacademy.org/home/jekyll/update/2016/04/27/week14.html</link>
+        <guid isPermaLink="true">http://archive.fabacademy.org/home/jekyll/update/2016/04/27/week14.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Output Devices</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://academy.cba.mit.edu/classes/output_devices/index.html&quot;&gt;Notes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Assignement&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;add an output device to a microcontroller board you’ve designed and program it to do something&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;what-i-am-going-to-do&quot;&gt;What i am going to do&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I want to make a speedometer using LED Arrays using a Optical Encoders.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;optical-encoder&quot;&gt;Optical Encoder&lt;/h1&gt;
+&lt;p&gt;An optical encoder is an electromechanical device which has an electrical output  proportional to the angular position of the input shaft.&lt;/p&gt;
+
+&lt;p&gt;It is normally used for Closed Loop Control in Printers,CNC Machines etc…&lt;/p&gt;
+
+&lt;p&gt;Encoder Principle: &lt;img src=&quot;/home/assets/posts/week13/encoderworking.jpg&quot; alt=&quot;Encoder &quot; /&gt;
+Encoder Attached to Motor: &lt;img src=&quot;/home/assets/posts/week13/encoder2.jpg&quot; alt=&quot;Encoder &quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;reading-from-encoder&quot;&gt;Reading from Encoder&lt;/h1&gt;
+&lt;p&gt;I am using Quadrature Encoder which have Two digital outputs (Channel A and Channel B) ,Quardrature encoder gives direction of rotation using this two channels&lt;/p&gt;
+
+&lt;p&gt;Quadrature Encoder Working: &lt;img src=&quot;/home/assets/posts/week13/quadrature.jpg&quot; alt=&quot;Quadrature Encoder &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I got a Quadrature Encoder from an OLD Printer ,thats shown below .
+Encoder from Old Printer: &lt;img src=&quot;/home/assets/posts/week13/minimotorencoder.jpg&quot; alt=&quot;Mini Motor Printer Encoder  &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can easily get direction and no of rotations from analyzing this outputs.
+Encoder Channel analyzing: &lt;img src=&quot;/home/assets/posts/week13/encoder_cro.jpg&quot; alt=&quot;Encoder CRO &quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;charlieplexinghttpsenwikipediaorgwikicharlieplexing&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Charlieplexing&quot;&gt;Charlieplexing&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;I want to display Motor RPM using a LED array for that iam using Charlieplexing Technique.  a Charlieplexing is a technique for driving Multiplexed LEDs in which relatively few I/O pins Microcontrollers.
+ATtiny45 have only 6 IO pins if we need to control 6 LEDS normally we want 6 PINS , But if you are using Charlieplexing you can control (n2 − n) LEDs. where ‘n’ is no of available pins .&lt;/p&gt;
+
+&lt;p&gt;Charlieplexing Chart: &lt;img src=&quot;/home/assets/posts/week13/charlieplexingsheet.png&quot; alt=&quot;Charlieplexing Chart&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;led-array-circuit-diagram&quot;&gt;LED Array Circuit Diagram&lt;/h1&gt;
+&lt;p&gt;I designed a 6 LED using 3 Pins Circuit in Eagle , in Eagle Layout You can see the LED Array arrangements .
+Charlieplexing ATtiny45: &lt;img src=&quot;/home/assets/posts/week13/charlieplexing3pins.jpg&quot; alt=&quot;Encoder &quot; /&gt;
+Eagle Layout: &lt;img src=&quot;/home/assets/posts/week13/charlieplexingeagle.png&quot; alt=&quot;Charlieplexing Eagle &quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;board&quot;&gt;Board&lt;/h1&gt;
+&lt;p&gt;I arranged PCB Board in a circular shape for displaying LEDs in the form of a speedometer.&lt;/p&gt;
+
+&lt;p&gt;Eagle Board: &lt;img src=&quot;/home/assets/posts/week13/cpboard.png&quot; alt=&quot;Charlieplexing Eagle Board&quot; /&gt;
+Stuffed PCB : &lt;img src=&quot;/home/assets/posts/week13/pcbround.jpeg&quot; alt=&quot;Encoder CRO &quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;programming&quot;&gt;Programming&lt;/h1&gt;
+&lt;p&gt;I used Attiny45 + Arduino , &lt;a href=&quot;http://playground.arduino.cc/Code/Charlieplex&quot;&gt;Charlieplex Library&lt;/a&gt; available in arduino . That is very easy but you need to understand working of Charlieplexing Circuits .&lt;/p&gt;
+
+&lt;p&gt;First I Programmed a simple charlieplexing  Running Light .&lt;/p&gt;
+
+&lt;p&gt;Code :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#include &amp;lt;Charlieplex.h&amp;gt;
+const int ledpin1 = 2;    // Charlieplexed for 6 LEDs
+const int ledpin2 = 1;
+const int ledpin3 = 0;
+#define NUMBER_OF_PINS 3
+//define pins in the order you want to adress them
+byte pins[] = {ledpin1, ledpin2, ledpin3};
+//initialize object
+Charlieplex charlieplex = Charlieplex(pins , NUMBER_OF_PINS);
+//individual &#39;pins&#39; , adress charlieplex pins as you would adress an array
+charliePin led1 = { 0 , 1 }; // Set the pins the LEDs are connected to.
+charliePin led2 = { 1 , 2 }; // If the wrong LED lights, change it here.
+charliePin led3 = { 2 , 0 };
+charliePin led4 = { 0 , 2 };
+charliePin led5 = { 2 , 1 };
+charliePin led6 = { 1 , 0 };
+void setup(){
+/*nothing*/
+}
+void loop(){
+charlieplex.charlieWrite(led1,HIGH);
+delay(1000);
+charlieplex.clear();    // Must clear the LED to avoid lighting additional LEDs unintentionally
+                  // This sets all 3 pins as an input
+charlieplex.charlieWrite(led2,HIGH);
+delay(1000);
+charlieplex.clear();
+
+charlieplex.charlieWrite(led3,HIGH);
+delay(1000);
+charlieplex.clear();    // Must clear the LED to avoid lighting additional LEDs unintentionally
+                  // This sets all 3 pins as an input
+charlieplex.charlieWrite(led4,HIGH);
+delay(1000);
+charlieplex.clear();
+charlieplex.charlieWrite(led5,HIGH);
+delay(1000);
+charlieplex.clear();    // Must clear the LED to avoid lighting additional LEDs unintentionally
+                  // This sets all 3 pins as an input
+charlieplex.charlieWrite(led6,HIGH);
+delay(1000);
+charlieplex.clear();
+
+
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Video :&lt;/p&gt;
+
+&lt;h1 id=&quot;final-output&quot;&gt;Final Output&lt;/h1&gt;
+
+&lt;h1 id=&quot;new-things-i-learned&quot;&gt;New Things I Learned&lt;/h1&gt;
+
+&lt;h1 id=&quot;problems-faced-and-solutions&quot;&gt;Problems Faced and Solutions&lt;/h1&gt;
+
+&lt;h1 id=&quot;tips&quot;&gt;Tips&lt;/h1&gt;
+
+&lt;h1 id=&quot;to-do&quot;&gt;To do&lt;/h1&gt;
+</description>
+        <pubDate>Wed, 27 Apr 2016 18:05:24 +0530</pubDate>
+        <link>http://archive.fabacademy.org/home/jekyll/update/2016/04/27/week13.html</link>
+        <guid isPermaLink="true">http://archive.fabacademy.org/home/jekyll/update/2016/04/27/week13.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Moulding and Casting</title>
+        <description>&lt;p&gt;&lt;a href=&quot;&quot;&gt;lecture&lt;/a&gt; &lt;a href=&quot;http://academy.cba.mit.edu/classes/molding_casting/index.html&quot;&gt;Notes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Assignement&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;design a 3D mold, machine it, and cast parts from it&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;what-i-am-going-to-do&quot;&gt;What i am going to do&lt;/h1&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;I want to make a casted wrist band using rubber .&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;&lt;img src=&quot;/home/assets/posts/week12/moulding.gif&quot; alt=&quot;sand Casting &quot; /&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Courtesy : http://www.technologystudent.com/equip1/poly2.htm&lt;/p&gt;
+
+&lt;h1 id=&quot;mould&quot;&gt;Mould&lt;/h1&gt;
+
+&lt;p&gt;I had done sand casting in my college days
+Courtesy : http://www.custompartnet.com/wu/SandCasting : &lt;img src=&quot;/home/assets/posts/week12/sand-casting-mold.png&quot; alt=&quot;sand Casting &quot; /&gt;
+ ,now i am going to make a real mould in wax,We are using &lt;strong&gt;Machinable Wax&lt;/strong&gt; for it .&lt;/p&gt;
+
+&lt;h1 id=&quot;why-using-machinable-wax&quot;&gt;Why Using Machinable Wax?&lt;/h1&gt;
+
+&lt;p&gt;Machinable Wax is a very hard Wax having &lt;strong&gt;High Melting Point&lt;/strong&gt; specially designed for Machining Applications .&lt;/p&gt;
+
+&lt;h1 id=&quot;mould-designing-in-rhino&quot;&gt;Mould Designing in Rhino&lt;/h1&gt;
+&lt;dl&gt;
+  &lt;dt&gt;I designed a Negative Mould in Rhino  for my Wrist Band, What is Negative Mould ? You Can easily understand by looking the following picture.&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;&lt;img src=&quot;/home/assets/posts/week12/negativeand positive.JPG&quot; alt=&quot;Negative Mould&quot; /&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;A)Positive Mould b)Negative Mould&lt;/p&gt;
+
+&lt;p&gt;Source :http://www.fibre-reinforced-plastic.com/2011_12_01_archive.html&lt;/p&gt;
+
+&lt;h1 id=&quot;rhino-designing-screenshots&quot;&gt;Rhino Designing Screenshots&lt;/h1&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;: &lt;img src=&quot;/home/assets/posts/week12/rhinoss1.png&quot; alt=&quot;Rhino Fab Academy Moulding &quot; /&gt;&lt;/dt&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week12/rhinoss2.png&quot; alt=&quot;Rhino Fab Academy Moulding 2 &quot; /&gt;&lt;/dd&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week12/rhinoss3.png&quot; alt=&quot;Rhino Fab Academy Moulding 3&quot; /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Yaa, I created a mould design in Rhino , Now it is ready to Export to &lt;strong&gt;.STL&lt;/strong&gt; format for Milling in Modella or ShopBot .
+&lt;a href=&quot;/home/assets/posts/week12/wristband.3dm&quot;&gt;Download Rhino File&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;milling-mould-in-modella&quot;&gt;Milling Mould in Modella&lt;/h1&gt;
+
+&lt;p&gt;Modella supports &lt;strong&gt;STL&lt;/strong&gt; file thats a new information to me also have an option to convert &lt;strong&gt;.STL&lt;/strong&gt; to &lt;strong&gt;.PNG&lt;/strong&gt; , I used 1/8” Bits for both Rough Cut and Finishing Cut .&lt;/p&gt;
+
+&lt;h1 id=&quot;rough-cut-and-finishing-cut&quot;&gt;Rough Cut and Finishing Cut&lt;/h1&gt;
+&lt;dl&gt;
+  &lt;dt&gt;This 2 level cuting method saves energy and time also gives a good finishing , Yaa rough cut removes major portion of the unwanted wax by milling and same time finishing cuts makes smooth and accurate.&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;&lt;img src=&quot;/home/assets/posts/week12/roughcut.jpg&quot; alt=&quot;Rough Cut Pic with Bit  &quot; /&gt;: &lt;img src=&quot;/home/assets/posts/week12/finishingcut.jpg&quot; alt=&quot;Finishing Cut  with Bit  &quot; /&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Yaa, Mould is Ready . Next step is Casting.&lt;/p&gt;
+
+&lt;h1 id=&quot;casting-process&quot;&gt;Casting Process&lt;/h1&gt;
+
+&lt;p&gt;This is the process of filling mould by which material we want to use ie, Rubber, Silicone,Plastic,Metal etc…&lt;/p&gt;
+
+&lt;p&gt;Now i am going to use Silicone Rubber(SORTA Clear 37)&lt;/p&gt;
+
+&lt;h1 id=&quot;sorta-clear-37&quot;&gt;SORTA Clear 37&lt;/h1&gt;
+&lt;p&gt;It is a Water white translucent silicone rubbers which cure at room temperature with negligible shrinkage and feature high tensile and tear strength.&lt;/p&gt;
+
+&lt;p&gt;SORTA Clear Part A and Part B: &lt;img src=&quot;/home/assets/posts/week12/sortaclear.jpg&quot; alt=&quot;SORTA CLear Part A &quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;list-of-materials-needs-for-casting&quot;&gt;List of Materials needs for Casting&lt;/h1&gt;
+&lt;dl&gt;
+  &lt;dt&gt;1.Mould&lt;/dt&gt;
+  &lt;dt&gt;2.Sorta Clear 37 :Part A&lt;/dt&gt;
+  &lt;dt&gt;3.Sorta Clear 37 :Part B&lt;/dt&gt;
+  &lt;dt&gt;4.Water&lt;/dt&gt;
+  &lt;dt&gt;5.Plastic Cup&lt;/dt&gt;
+  &lt;dt&gt;6.Wooden Stick&lt;/dt&gt;
+  &lt;dt&gt;7.Aluminium Foil&lt;/dt&gt;
+  &lt;dt&gt;8.Patience :) :) Your Patience will indicate in your final Result .&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;&lt;img src=&quot;/home/assets/posts/week12/materials.jpg&quot; alt=&quot;Casting Materials&quot; /&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h1 id=&quot;process&quot;&gt;Process&lt;/h1&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;1.First fill your Mould with water and pour that water into a Vaccant Glass (It is for measuring the volume of mould)&lt;/dt&gt;
+  &lt;dt&gt;2.Take Part A and Part B in  Glasses (Equal to 1/2 Volume of Mould)&lt;/dt&gt;
+  &lt;dt&gt;3:Mix It(1:1 Ratio)&lt;/dt&gt;
+  &lt;dt&gt;4:Add  1 drop of Coloring Agent(If you need color)&lt;/dt&gt;
+  &lt;dt&gt;5.Pour the mixed material carefully to Mould (Be careful to air bubbles that makes holes in final product)&lt;/dt&gt;
+  &lt;dt&gt;6.Remove Unwanted Material from Mould&lt;/dt&gt;
+  &lt;dt&gt;7.Wait 4 Hours then Open the Mould&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;&lt;img src=&quot;/home/assets/posts/week12/process1.jpg&quot; alt=&quot;Casting Process&quot; /&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week12/process2.jpg&quot; alt=&quot;Casting Process &quot; /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Wait 4 Hours to set .&lt;/p&gt;
+
+&lt;h1 id=&quot;finished-product&quot;&gt;Finished Product&lt;/h1&gt;
+&lt;dl&gt;
+  &lt;dt&gt;: &lt;img src=&quot;/home/assets/posts/week12/finalshot1.jpg&quot; alt=&quot;Silicone Rubber Wrist Band DIY shot 1&quot; /&gt;&lt;/dt&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week12/finalshot2.jpg&quot; alt=&quot;Silicone Rubber Wrist Band DIY shot 2&quot; /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h1 id=&quot;to-do&quot;&gt;To do&lt;/h1&gt;
+
+&lt;p&gt;Video of the process&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Apr 2016 18:05:24 +0530</pubDate>
+        <link>http://archive.fabacademy.org/home/jekyll/update/2016/04/20/week12.html</link>
+        <guid isPermaLink="true">http://archive.fabacademy.org/home/jekyll/update/2016/04/20/week12.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Input Devices</title>
+        <description>&lt;p&gt;&lt;strong&gt;Assignement&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;measure something: add a sensor to a microcontroller board that you have designed and read it&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;What I am going to do&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I want to make an accelerometer board that will communicate with a GUI&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;accelerometer&quot;&gt;Accelerometer&lt;/h1&gt;
+
+&lt;p&gt;Accelerometer is an Micro-Electro-Mechanical Systems device to meassure acceleration forces,it convert mechanical acceleretions to electrical signals.&lt;/p&gt;
+
+&lt;p&gt;I followed following youtube video and &lt;a href=&quot;http://users.ecs.soton.ac.uk/mk1/2prin.pdf&quot;&gt;This PDF&lt;/a&gt; to understand about accelerometr working principle.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i2U49usFo10&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;In our Fablab Inventory we have MMA845 Accelerometer&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;first i want to study working of MMA845 Accelerometer ,&lt;a href=&quot;http://www.nxp.com/files/sensors/doc/data_sheet/MMA8452Q.pdf&quot;&gt;Datasheet&lt;/a&gt;&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;&lt;img src=&quot;/home/assets/posts/week11/16qfn.png&quot; alt=&quot;16qfn Accelerometer&quot; /&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+  &lt;dd&gt;
+    &lt;p&gt;&lt;img src=&quot;/home/assets/posts/week11/16qfn2.png&quot; alt=&quot;16qfn Accelerometer&quot; /&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+  &lt;dd&gt;
+    &lt;p&gt;&lt;img src=&quot;/home/assets/posts/week11/16qfn4.png&quot; alt=&quot;16qfn Accelerometer&quot; /&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;I tried to use this accelerometer in my board but the problem is MMA845 have very small foot print pad size(8 mil) , we need 1/128” bit for milling this size, but  we  have 1/64” and 1/32” bit only.&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;I have an ADXL 345 Accelerometer , i am going to interface with attiny45 and communicate to GUI via serial .&lt;/dt&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week11/adxl345.jpg&quot; alt=&quot;adxl 345 Accelerometer&quot; /&gt;
+We are using I2C Connection .&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h1 id=&quot;i2c-connection-between-adxl-345-and-attiny45&quot;&gt;I2C Connection Between ADXL 345 and ATtiny45&lt;/h1&gt;
+&lt;p&gt;: &lt;img src=&quot;/home/assets/posts/week11/Adxli2cattiny45.png&quot; alt=&quot;adxl 345 Accelerometer&quot; /&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;I designed circuit in eagle,I used &lt;strong&gt;pinhead&lt;/strong&gt; Component library for adding 6 Pin header for my accelerometer board, and i followed Neil’s ADXL343 Board for referance .&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;&lt;img src=&quot;/home/assets/posts/week11/adxl345layout.png&quot; alt=&quot;adxl 345 Accelerometer Eagle Layout&quot; /&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week11/adxl345board.png&quot; alt=&quot;adxl 345 Accelerometer Eagle Board&quot; /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Download Eagle Files &lt;a href=&quot;/home/assets/posts/week11/adxl345.brd&quot;&gt;.Brd&lt;/a&gt; &lt;a href=&quot;/home/assets/posts/week11/adxl345.sch&quot;&gt;.Sch&lt;/a&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;After Milling and Stuffing&lt;/dt&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week11/adxl345board.jpg&quot; alt=&quot;adxl 345 Accelerometer Milling&quot; /&gt;
+Back Side of Board&lt;/dd&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week11/adxl345back.jpg&quot; alt=&quot;adxl 345 Accelerometer Milling Back &quot; /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;I used &lt;a href=&quot;http://academy.cba.mit.edu/classes/input_devices/index.html&quot;&gt;Neils ADXL 343&lt;/a&gt;  Code to Showing Accelerometer values in GUI.&lt;/p&gt;
+
+&lt;p&gt;Final Result&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-sC5QA0Epic&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Wed, 16 Mar 2016 18:05:24 +0530</pubDate>
+        <link>http://archive.fabacademy.org/home/jekyll/update/2016/03/16/week11.html</link>
+        <guid isPermaLink="true">http://archive.fabacademy.org/home/jekyll/update/2016/03/16/week11.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Machine Making</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://archive.fabacademy.org/archives/2016/fablabtrivandrum/machine_building/team_1/index.html&quot;&gt;Machine Making Group Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Mar 2016 18:05:24 +0530</pubDate>
+        <link>http://archive.fabacademy.org/home/jekyll/update/2016/03/16/week10.html</link>
+        <guid isPermaLink="true">http://archive.fabacademy.org/home/jekyll/update/2016/03/16/week10.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Machine Designing</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://archive.fabacademy.org/archives/2016/fablabtrivandrum/machine_building/team_1/index.html&quot;&gt;Machine Making Group Project Link&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Mar 2016 18:05:24 +0530</pubDate>
+        <link>http://archive.fabacademy.org/home/jekyll/update/2016/03/16/week9.html</link>
+        <guid isPermaLink="true">http://archive.fabacademy.org/home/jekyll/update/2016/03/16/week9.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Embedded Programing</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;I want to Program my ATtiny Board using Different Embedded Programing techniques.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Tags&lt;/strong&gt;
+ &lt;a href=&quot;http://www.123dapp.com/circuits&quot;&gt;avr&lt;/a&gt;    &lt;a href=&quot;http://www.123dapp.com/circuits&quot;&gt;ISP&lt;/a&gt;     &lt;a href=&quot;http://www.123dapp.com/circuits&quot;&gt;hex file&lt;/a&gt;     &lt;a href=&quot;http://www.123dapp.com/circuits&quot;&gt;Assembly&lt;/a&gt;  &lt;a href=&quot;http://www.123dapp.com/circuits&quot;&gt;fuse&lt;/a&gt;  &lt;a href=&quot;http://www.123dapp.com/circuits&quot;&gt;arduino&lt;/a&gt;  &lt;a href=&quot;http://www.123dapp.com/circuits&quot;&gt;avrdude&lt;/a&gt;  &lt;a href=&quot;http://www.123dapp.com/circuits&quot;&gt;DIP&lt;/a&gt;  &lt;a href=&quot;http://www.123dapp.com/circuits&quot;&gt;Clock&lt;/a&gt;  &lt;a href=&quot;http://www.123dapp.com/circuits&quot;&gt;GCC&lt;/a&gt;  &lt;a href=&quot;http://www.123dapp.com/circuits&quot;&gt;RS232&lt;/a&gt;  &lt;a href=&quot;http://www.123dapp.com/circuits&quot;&gt;FTDI&lt;/a&gt; &lt;a href=&quot;http://www.123dapp.com/circuits&quot;&gt;JTAG&lt;/a&gt; &lt;a href=&quot;http://www.123dapp.com/circuits&quot;&gt;Atmel ICE&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Microcontrollers Overview&lt;/h3&gt;
+
+&lt;p&gt;A microcontroller is a small computer (SoC) on a single integrated circuit containing a processor core, memory, and programmable input/output peripherals. Program memory in the form of Ferroelectric RAM, NOR flash or OTP ROM is also often included on chip, as well as a typically small amount of RAM. Microcontrollers are designed for embedded applications, in contrast to the microprocessors used in personal computers or other general purpose applications consisting of various discrete chips.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.atmel.com/products/microcontrollers/8051Architecture/default.aspx&quot;&gt;8051&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Intel MCS-51 (commonly termed 8051) is an internally Harvard architecture, complex instruction set computing (CISC) instruction set, single chip microcontroller (µC) series developed by Intel in 1980 for use in embedded systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.microchip.com/design-centers/microcontrollers&quot;&gt;PIC&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;PIC microcontrollers are a family of specialized microcontroller chips produced by Microchip Technology . The acronym PIC stands for “peripheral interface controller.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.atmel.com/products/microcontrollers/avr/&quot;&gt;AVR&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The AVR is a modified Harvard architecture 8-bit RISC single-chip microcontroller, which was developed by Atmel in 1996.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.arm.com/markets/embedded/mcu.php&quot;&gt;ARM&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ARM, originally Acorn RISC Machine, later Advanced RISC Machine, is a family of reduced instruction set computing (RISC) architectures for computer processors, configured for various environments. British company ARM Holdings develops the architecture and licenses it to other companies, who design their own products that implement one of those architectures—​​including systems-on-chips (SoC) that incorporate memory, interfaces, radios, etc. It also designs cores that implement this instruction set and licenses these designs to a number of companies that incorporate those core designs into their own products.&lt;/p&gt;
+
+&lt;p&gt;[MSP](http://www.ti.com/lsds/ti/microcontrollers_16-bit_32-bit/msp/overview.page
+Low Power Microcontrollers from Texas Instruments.&lt;/p&gt;
+
+&lt;h3&gt;AVR - ATtiny 44 Microcontroller&lt;/h3&gt;
+&lt;dl&gt;
+  &lt;dt&gt;This is a Atmel 8 Bit low power micro controller combines 4KB ISP flash memory, 256-Byte EEPROM, 256B SRAM, 12 general purpose I/O lines, 32 general purpose working registers.&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;&lt;img src=&quot;/home/assets/posts/week8/attiny.png&quot; alt=&quot;final laser cut&quot; /&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+  &lt;dt&gt;ATtiny 44 have 31 General Purpose IO Registers&lt;/dt&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week8/attinyregister.png&quot; alt=&quot;ATtiny Registers&quot; /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h1 id=&quot;what-is-a-register&quot;&gt;What is a register?&lt;/h1&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Registers are special storages elements in microcontrollers with 8 bits capacity and they look like this:&lt;/dt&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week8/register.png&quot; alt=&quot;ATtiny Registers&quot; /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Characters of Registers compared to other storage elements.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;They are connected directly to the central processing unit called the accumulator.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;They can be used directly in assembler commands,&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Operations with their content require only a single command word,&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;They are source and target for calculations.&lt;/em&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;List of Registers&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;&lt;img src=&quot;/home/assets/posts/week8/reg.png&quot; alt=&quot;ATtiny Registers&quot; /&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h3&gt;How to Program ATtiny&lt;/h3&gt;
+
+&lt;p&gt;We can program ATtiny in different methods now iam explaining how to program ATtiny using Arduino IDE and avr-gcc&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.atmel.com/images/doc0943.pdf&quot;&gt;Six -Wire ISP Programming&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;SCK(Serial Clock) :Programming clock, generated by the In-System
+Programmer (Master)&lt;/p&gt;
+
+&lt;p&gt;MOSI(Master Out – Slave In ) :Communication line from In-System Programmer
+(Master) to target AVR being programmed (Slave&lt;/p&gt;
+
+&lt;p&gt;MISO( Master In – Slave Out ) : Communication line from target AVR (Slave) to In-
+System Programmer (Master)&lt;/p&gt;
+
+&lt;p&gt;RST(Reset) : To enable In-System Programming, the target AVR Reset must be kept active. To simplify this, the In-System Programmer should control the target AVR Reset&lt;/p&gt;
+
+&lt;p&gt;GND(Ground) :Common Ground&lt;/p&gt;
+
+&lt;p&gt;VCC(voltage Constant Current) : VCC&lt;/p&gt;
+
+&lt;h1 id=&quot;attiny-programming-using-arduino-ide&quot;&gt;ATtiny Programming Using Arduino IDE&lt;/h1&gt;
+&lt;p&gt;You can easily program your AVR microcontroller using Arduino IDE for that you need the following items&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Arduino IDE&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;AVR ISP Programmer(FAB ISP/Arduino as ISP/ any other ISP Programmer).&lt;/p&gt;
+
+    &lt;p&gt;I am using my FabISP programmer which i created in &lt;a href=&quot;http://archive.fabacademy.org/archives/2016/fablabtrivandrum/students/390/jekyll/update/2016/02/17/week4.html&quot;&gt;Electronics Production Week&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ISP Header  Cables(6 Pin)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Start Programming&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You need to install ATtiny library on Arduino IDE.&lt;/p&gt;
+
+&lt;p&gt;File &amp;gt;Preference add this code&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;: &lt;img src=&quot;/home/assets/posts/week8/attinylibrary1.png&quot; alt=&quot;Attiny Board Manager&quot; /&gt;&lt;/dt&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week8/attinylibrary2.png&quot; alt=&quot;Attiny Board Manager&quot; /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Make the following changes in   Board menu&lt;/p&gt;
+
+&lt;p&gt;Board -&amp;gt; ATtiny&lt;/p&gt;
+
+&lt;p&gt;Processor -&amp;gt; ATtiny44&lt;/p&gt;
+
+&lt;p&gt;Clock -&amp;gt; 20 MHZ(because i am using 20 MHZ Resonator in my Board)&lt;/p&gt;
+
+&lt;p&gt;Programmer -&amp;gt; USBTinyISP (because iam using Fab ISP)&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Then Connect FabISP with ATtiny Board.&lt;/dt&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week8/ISPconnection.jpg&quot; alt=&quot;Attiny ISP Connection&quot; /&gt;&lt;/dd&gt;
+  &lt;dt&gt;6 Pin ISP Male to Male Header Cable&lt;/dt&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week8/headerwires.jpg&quot; alt=&quot;ISP 6 Pin Wire&quot; /&gt;&lt;/dd&gt;
+  &lt;dt&gt;ISP Pin Structure&lt;/dt&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week8/ispheader.jpg&quot; alt=&quot;ISP Male&quot; /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;After setting the above parameters i wrote program in Arduino IDE,i am familiar with arduino programming.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/*
+Blinking Pattern With Push Buttun
+By
+
+Muhammed Jaseel P
+FabAcademy 2016 Student
+Fablab Trivandrum
+*/
+
+
+void setup() {
+// initialize digital pin 13 as an output.
+pinMode(7, OUTPUT);//Blue LED
+pinMode(8, OUTPUT);//RED LED
+pinMode(2,INPUT);//BUTTON
+
+}
+
+// the loop function runs over and over again forever
+void loop() {
+if(digitalRead(2) == LOW)
+{
+digitalWrite(7,HIGH);
+delay(100);
+digitalWrite(7,LOW);
+delay(100);
+digitalWrite(8,HIGH);
+delay(100);
+digitalWrite(8,LOW);
+delay(100);
+
+
+}
+else
+{
+digitalWrite(7,LOW);
+digitalWrite(8,LOW);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Final Outout&lt;/h3&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4rDrgIChXes&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I have problems with my Vimeo Account thats why i temporary hosting in Youtube :).&lt;/p&gt;
+
+&lt;h1 id=&quot;to-do&quot;&gt;To do&lt;/h1&gt;
+
+&lt;h1 id=&quot;qa&quot;&gt;Q&amp;amp;A&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;What is the Acronym of AVR?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is ‘A’ in ATtiny44A ?&lt;/strong&gt;
+&lt;strong&gt;What is ‘the Acronym of VCC ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Diffrence Between AVR and PIC?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is RISC Architecture&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is FPGA?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is ISP?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fuses in AVR?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why Using Crystals / OScillators / Resonators in Microcontroller Circuits?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is FTDI and its use?&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Mar 2016 18:05:24 +0530</pubDate>
+        <link>http://archive.fabacademy.org/home/jekyll/update/2016/03/16/week8.html</link>
+        <guid isPermaLink="true">http://archive.fabacademy.org/home/jekyll/update/2016/03/16/week8.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Computer-controlled machining</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;I want to fabricate a “Pressfit Book Shelf” in Plywood(12mm) using ShopBot.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Designing&lt;/h3&gt;
+
+&lt;p&gt;Previous Weeks I learned  designing tools &lt;a href=&quot;http://www.mattkeeter.com/projects/antimony/3/&quot;&gt;Antimony&lt;/a&gt; and &lt;a href=&quot;https://www.blender.org/&quot;&gt;Blender&lt;/a&gt; ,this week i started to learning &lt;a href=&quot;https://www.rhino3d.com/&quot;&gt;Rhino&lt;/a&gt; from &lt;a href=&quot;http://archive.fabacademy.org/archives/2016/fablabtrivandrum/students/384/index.html&quot;&gt;Yadhu Sharon&lt;/a&gt;.&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;first i transferred my imagination from my brain to paper.&lt;/dt&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week7/handdrawing.jpg&quot; alt=&quot;Handdrawing&quot; /&gt;
+Calculated hinges dimension and place then i started designing in &lt;a href=&quot;https://www.rhino3d.com/&quot;&gt;Rhino&lt;/a&gt; .&lt;/dd&gt;
+  &lt;dd&gt;
+    &lt;p&gt;&lt;img src=&quot;/home/assets/posts/week7/rhino.gif&quot; alt=&quot;Rhino design&quot; /&gt;Used  Array Tool for multiplying hinges thats a nice tool,This Video Tutorial will help you to understand how to use array in rhino.&lt;a href=&quot;https://www.youtube.com/watch?v=X6FJPqsY2Gk&quot;&gt;https://www.youtube.com/watch?v=X6FJPqsY2Gk&lt;/a&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week7/7.png&quot; alt=&quot;Final Rhino&quot; /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;&lt;a href=&quot;/home/assets/posts/week7/Bookshelf_cardboard.dwg&quot;&gt;Download .dwg(Rhino Output for  Laser Cut)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/home/assets/posts/week7/Bookshelf_shopbot_11mm.3dm&quot;&gt;Download .3dm(Rhino file&lt;/a&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;I created a Laser cut miniature version in cardboard.also i aligned design to reduce material wastage.&lt;/dt&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week7/wastage.png&quot; alt=&quot;wastage&quot; /&gt;&lt;/dd&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week7/lasercut.jpg&quot; alt=&quot;laser cut&quot; /&gt;&lt;/dd&gt;
+  &lt;dt&gt;Final Lasercut Output&lt;/dt&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week7/cardboardmodel.jpg&quot; alt=&quot;final laser cut&quot; /&gt;&lt;/dd&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week7/out2.jpg&quot; alt=&quot;final laser cut&quot; /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h3&gt;Designing for ShopBot&lt;/h3&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;ShopBot can’t cut sharp inner edges properly , to avoid this issue we need to add an extra pocket in the inner corners,also you need to consider Bit Size while designing the model(i used 1/8” Spiral Bit for cutting plywood)&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;&lt;img src=&quot;/home/assets/posts/week7/holes.png&quot; alt=&quot;inner edge&quot; /&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h1 id=&quot;shopbot&quot;&gt;ShopBot&lt;/h1&gt;
+
+&lt;p&gt;I followed this ShopBot Basics Tutorial for learning .&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FdKH1-U_3Y8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h4&gt;Shop Bot Bits&lt;/h4&gt;
+&lt;p&gt;Different type of ShopBot Bits and Details.&lt;/p&gt;
+
+&lt;p&gt;Image Courtesy www.shopbottools.com   &lt;img src=&quot;/home/assets/posts/week7/bit.png&quot; alt=&quot;bits&quot; /&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Assemlying&lt;/dt&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week7/assembling.jpg&quot; alt=&quot;Assembling the Parts&quot; /&gt;&lt;/dd&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week7/assembling2.jpg&quot; alt=&quot;Final Shopbot Bookshelf Pic&quot; /&gt;
+Final Out&lt;/dd&gt;
+  &lt;dd&gt;&lt;img src=&quot;/home/assets/posts/week7/finalout.jpg&quot; alt=&quot;Assembling the Parts&quot; /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h1 id=&quot;to-do-section&quot;&gt;To do Section&lt;/h1&gt;
+
+</description>
+        <pubDate>Wed, 09 Mar 2016 18:05:24 +0530</pubDate>
+        <link>http://archive.fabacademy.org/home/jekyll/update/2016/03/09/week7.html</link>
+        <guid isPermaLink="true">http://archive.fabacademy.org/home/jekyll/update/2016/03/09/week7.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

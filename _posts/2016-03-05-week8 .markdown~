@@ -1,0 +1,85 @@
+---
+layout: post
+title:  Computer-controlled machining
+date:   2016-03-16 18:05:24 +0530
+categories: jekyll update
+---
+>I want to fabricate a "Pressfit Book Shelf" in Plywood(12mm) using ShopBot.
+
+<h3>Designing</h3>
+
+Previous Weeks I learned  designing tools [Antimony](http://www.mattkeeter.com/projects/antimony/3/) and [Blender](https://www.blender.org/) ,this week i started to learning [Rhino](https://www.rhino3d.com/) from [Yadhu Sharon](http://archive.fabacademy.org/archives/2016/fablabtrivandrum/students/384/index.html).
+
+first i transferred my imagination from my brain to paper.
+: ![Handdrawing]({% asset_path handdrawing.jpg%})
+Calculated hinges dimension and place then i started designing in [Rhino](https://www.rhino3d.com/) .
+
+
+: ![Rhino design]({% asset_path rhino.gif%})Used  Array Tool for multiplying hinges thats a nice tool,This Video Tutorial will help you to understand how to use array in rhino.[https://www.youtube.com/watch?v=X6FJPqsY2Gk](https://www.youtube.com/watch?v=X6FJPqsY2Gk)
+: ![Final Rhino]({% asset_path 7.png%})
+
+[Download .dwg(Rhino Output for  Laser Cut)]({% asset_path Bookshelf_cardboard.dwg%})
+
+[Download .3dm(Rhino file]({% asset_path Bookshelf_shopbot_11mm.3dm%})
+
+I created a Laser cut miniature version in cardboard.also i aligned design to reduce material wastage.
+: ![wastage]({% asset_path wastage.png%})
+: ![laser cut]({% asset_path lasercut.jpg%})
+
+Final Lasercut Output
+: ![final laser cut]({% asset_path cardboardmodel.jpg%})
+: ![final laser cut]({% asset_path out2.jpg%})
+
+<h3>Designing for ShopBot</h3>
+
+ShopBot can't cut sharp inner edges properly , to avoid this issue we need to add an extra pocket in the inner corners,also you need to consider Bit Size while designing the model(i used 1/8" Spiral Bit for cutting plywood)
+
+: ![inner edge]({% asset_path holes.png%})
+
+ShopBot
+======
+
+I followed this ShopBot Basics Tutorial for learning .
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FdKH1-U_3Y8" frameborder="0" allowfullscreen></iframe>
+
+<h4>Shop Bot Bits</h4>
+Different type of ShopBot Bits and Details.
+
+Image Courtesy www.shopbottools.com   ![bits]({% asset_path bit.png%})
+
+48X96 Inch Size
+Rack and Pinion Gear
+Variable Frequency Drive To change RPM
+Switch Box
+Relay Board
+Controller
+Dust Collector
+
+Sacrificial Layer
+Zeroing
+
+Vcarve Pro
+Gcode
+Shopbot Software
+Process with screen shots
+Images
+Final Out
+
+Problem faced
+Image
+
+
+
+
+
+
+
+
+To do
+====
+
+>ShopBot Details
+
+ >Problem Faced
+
+>Cut and assemble the structure in Plywood

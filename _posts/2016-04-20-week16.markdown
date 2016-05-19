@@ -1,0 +1,45 @@
+---
+layout: post
+title:  Interface and Application Programming
+date:   2016-04-27 18:05:24 +0530
+categories: jekyll update
+---
+
+ [Notes](http://academy.cba.mit.edu/classes/interface_application_programming/index.html)
+
+**Assignement**
+
+>    write an application that interfaces with an input &/or output device that you made
+
+
+What i am going to do
+======================
+
+>I want to make a speedometer using LED Arrays using a Optical Encoders.
+
+
+
+Board
+=======================
+
+
+Programming
+==========================
+
+
+
+Final Output
+==============
+
+
+New Things I Learned
+==================
+
+Problems Faced and Solutions
+==================
+
+Tips
+=====
+
+To do
+=========

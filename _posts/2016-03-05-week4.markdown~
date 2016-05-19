@@ -1,0 +1,251 @@
+---
+layout: post
+title:  Electronics production
+date:   2016-02-17 18:05:24 +0530
+categories: jekyll update
+---
+<p>
+   This week we want to fabricate a  FabISP Programmer .
+   <br/>
+   I am remembering ,5 years before i created an AVR Programmer from scratch within th cost of
+   <strong>
+    5 Indian Rupees(0.1$)
+   </strong>
+   <br/>
+   <img alt="  "  width=" 600px"  height =" 400px"  src=" {% asset_path 30_1282241678.gif %}"  title=" AVR Parallel Programmer" />
+  </p>
+  <p>
+   I made many projects using that programmer ,but the problem is it is using
+   <strong>
+    Parallel Port(LPT)
+   </strong>
+   it is only availbale in old PCs,but it is worth that time.
+  </p>
+  <p>
+   That Time i used AVRdude and AVR Studio to generate Hex files and flashing.
+  </p>
+  <h3 id=" fab-isp" >
+   Fab ISP
+  </h3>
+  <p>
+   ISP In-system programming (ISP), or In-Circuit Serial Programming (ICSP) is used for programming Microcontrollers like AVR,PIC etc…
+  </p>
+  <p>
+   In Fablab We are using AVR Microcontrollers ,I downloaded FabISP design files from
+   <a href=" http://fab.cba.mit.edu/content/projects/fabisp/" >
+    Fab Acdemy 2015 Website .
+   </a>
+  </p>
+  <p>
+   PNG Files for Milling
+   <a href=" http://fab.cba.mit.edu/content/projects/fabisp/fabisp.png" >
+    fabisp.png
+   </a>
+   <a href=" http://fab.cba.mit.edu/content/projects/fabisp/fabispdim.png" >
+    fabispdim.png
+   </a>
+   ,you can design your own circuits using
+   <strong>
+    Eagle
+   </strong>
+  </p>
+  <p>
+   <strong>
+    Note: The traces should be white and the background should be black
+   </strong>
+  </p>
+  <p>
+   We are using USB MiniB connect to the 2X3 ISP Header Socket for Interfaciong with computer and use avrdude to program target.
+  </p>
+  <h4 id=" pcb-milling" >
+   PCB Milling
+  </h4>
+  <p>
+   We are using
+   <strong>
+    Modela milling machine
+   </strong>
+   for making PCBs it is 3 axis CNC Machine specially designed for high precission application like PCB Milling etc..
+  </p>
+  <p>
+   <img alt="  "  width=" 600px"  height =" 400px"  src=" {% asset_path 5.jpg %}"  title=" Millling" />
+   <img alt="  "  width=" 600px"  height =" 400px"  src=" {% asset_path 30_1282241678.gif %}"  title=" AVR Parallel Programmer" />
+  </p>
+  <h4 id=" fixing-pcb-to-the-machine" >
+   Fixing PCB to the Machine
+  </h4>
+  <p>
+   First Place a Sacrificial Layer in Modela Plate using Double sided Tapes ,it is for safety.
+  </p>
+  <p>
+   Fix Copper Plates above the Sacrificial Layer and avoid bends in a Copper platres before placing.
+  </p>
+  <h4 id=" selection-of-bits" >
+   Selection of Bits
+  </h4>
+  <p>
+   <img/>
+   <br/>
+   <strong>
+    For Tracing :1/64 Bit
+    <br/>
+    For Cutting : 1/32 Bit
+   </strong>
+  </p>
+  <p>
+   After Putting Proper Bit in Machine we need to adjust
+   <strong>
+    Z axis
+   </strong>
+   and
+   <strong>
+    Zeroing
+   </strong>
+   adjust (0,0,0) position of machine by pressing Down Button .
+   <br/>
+   <img/>
+  </p>
+  <h4 id=" sending-the-tracing-job-to-machine" >
+   Sending the Tracing Job to Machine
+  </h4>
+  <p>
+   Open Fab Modules
+   <br/>
+   Select “png” In Input format and “Roland Modela” in Output
+   <br/>
+   <img/>
+   <br/>
+   Select 1/64 Bit and Load Traces PNG file after that
+   <strong>
+    Make Path&gt;Make RML&gt;Send It
+   </strong>
+  </p>
+  <h4 id=" sending-the-cutting-job-to-machine" >
+   Sending the Cutting Job to Machine
+  </h4>
+  <p>
+   Change Bit from 1/64 to 1/32 and Load Cutting PNG and follow same Procedures
+   <br/>
+   <strong>
+    Make Path&gt;Make RML&gt;Send It
+   </strong>
+   <br/>
+   After that Take the board carefully .
+   <br/>
+   <img alt="  "  width=" 600px"  height =" 400px"  src=" {% asset_path 6.jpg %}" title=" Taking PCB" />
+   <br/>
+   <img alt="  "  width=" 600px"  height =" 400px"  src=" {% asset_path 7.jpg %}" title=" PCB Outside" />
+  </p>
+  <h4 id=" components" >
+   Components
+  </h4>
+  <p>
+   Place all components in a Paper with their names
+  </p>
+  <p>
+   Note : Identification of SMD Components is a Herculian task thats why dont mess up components.
+   <br/>
+   <img alt="  "  width=" 600px"  height =" 400px"  src=" {% asset_path 2.jpg %}" title=" Components in Paper" />
+  </p>
+  <h4 id=" soldering-the-components" >
+   Soldering the Components
+  </h4>
+  <p>
+   <img/>
+   <br/>
+   Note: Make PCB soldering points to Hot using Soldering Iron for easy soldering.
+  </p>
+  <p>
+   For Soldering Fab ISP it takes 1 Hour (for me) :)
+  </p>
+  <p>
+   <img alt="  "  width=" 600px"  height =" 400px"  src=" {% asset_path 9.jpg %}" title=" Soldering" />
+   <br/>
+   <img alt="  "  width=" 600px"  height =" 400px"  src=" {% asset_path 10.jpg %}" title=" Soldering 2" />
+<br/>
+<h4>Final Look</h4>
+ <img alt="  "  width=" 600px"  height =" 400px"  src=" {% asset_path 11.jpg %}" title=" Fab ISP" />
+  
+</p>
+  <h4 id=" programming-attiny44" >
+   Programming ATtiny44
+  </h4>
+  <p>
+   Before using FabISP we need to program the chip(ATtiny44 for this you need another ISP Programmer (any AVR ISP Programmer )
+  </p>
+  <p>
+   Install avrdude
+   <br/>
+   sudo apt-get install avrdude
+  </p>
+  <p>
+   Downlaod Firmware from
+   <a href=" http://fab.cba.mit.edu/content/projects/fabisp" >
+    Fab Acdemy 2015 Website .
+   </a>
+  </p>
+  <p>
+   Extract and open that folder in terminal and type
+  </p>
+  <p>
+   <strong>
+    make clean
+    <br/>
+    make hex
+   </strong>
+  </p>
+  <p>
+   I am using ATmel ICE ISP Programmer thats why need to change that in Make file
+  </p>
+  <p>
+   Open Make file in any text editor
+   <br/>
+   and Change avrisp2 to atmelice_isp
+   <br/>
+   <strong>
+    <br/>
+    AVRDUDE = avrdude -c atmelice_isp -P usb -p $(DEVICE)
+   </strong>
+  </p>
+  <p>
+   Next enter the following commands in terminal
+  </p>
+  <p>
+   <strong>
+    make fuse
+    <br/>
+    make program
+   </strong>
+  </p>
+  <p>
+   After Programming Desolder SJ1 Jumper it is not required after programming.
+  </p>
+  <p>
+   Now your FabISP is ready Now you can Flash any AVR microcontroller
+  </p>
+  <p>
+   <strong>
+    <em>
+     *Note: While Connecting to ISP Headers always double check the correct pins(MISO - MISO,MOSI-MOSI etc..)
+    </em>
+   </strong>
+   *
+  </p>
+  <h4 id=" problems-faced" >
+   Problems Faced
+  </h4>
+  <p>
+   FAB ISP not detetecting by avrdude software
+  </p>
+  <p>
+   <strong>
+    Solution :
+   </strong>
+   <br/>
+   I found that some continuity issues with RST Pin we desoldered the connection.
+  </p>
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

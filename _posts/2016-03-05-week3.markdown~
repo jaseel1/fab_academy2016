@@ -1,0 +1,161 @@
+---
+layout: post
+title: Computer-controlled cutting
+date:   2016-02-10 18:05:24 +0530
+categories: jekyll update
+---
+<h4 id="vinyl-cutting%}">
+   Vinyl Cutting
+  </h4>
+  <p>
+   I created a Vinyl Sticker of “Pacman” ,I used 4 colors vinyl sheets for this sticker .
+  </p>
+  <p>
+   I searched many 2D Vector Softwares finally i decided  to do with Inkscpae , i am new to inkscape thats why i spent first 3 hours to learn inkscape basics.
+   <br/>
+   I followed this
+   <a href="https://inkscape.org/en/learn/tutorials/">
+    Inkscape Tutorials
+   </a>
+   to learn Inkscape basics,and I searched many tutorials and got one ,I created each objects in seperate layers thats very important to multi layer Vinyl Sticker
+  </p>
+  <p>
+   <strong>
+    Note : If you are designing a multilayer vinyl sticker make all objects in seperate layers
+   </strong>
+   .
+   <br/>
+   <img alt=" " src="{% asset_path Completed.png %}" title="Completed Image"/>
+   <br/>
+   <strong>
+    Layer&gt;Layers
+   </strong>
+   for  Layers Menu, I named all layers is the name of vinyl color to be print,then you can show/Hide Each layers.
+  </p>
+  <p>
+   <img alt=" " src="{% asset_path pac-man-4.png %}" title="Pacman in Inkscape"/>
+  </p>
+  <p>
+   I used tis property to make mouth of “Pacman” we can adjust the minimum and maximum angles
+  </p>
+  <p>
+   <strong>
+    File&gt;Save AS
+   </strong>
+   to .png then you will get PNG of each layers
+  </p>
+  <p>
+   Then go to
+   <strong>
+    Vinyl Cutting
+   </strong>
+   Machine
+   <br/>
+   <img alt=" " src="{{ site.url }}/assets/{% asset_path WP_20160218_005.jpg %}" width="800px" height="600px""Vinyl Cutter"'/>
+   <br/>
+   before using vinyl machine we can test its blade properly fit,feed the vinyl sheet of your selected color ,Normally R,G,B,Y,W colors are available
+   <br/>
+   you can use both roll and piece , I prefer sheet always .
+  </p>
+  <p>
+   <img/>
+   <br/>
+   if you are selecting roll the machine not meassuring the length of roll, if you are using piece it will meassure both length and width
+   <br/>
+   <img alt=" " src="{% asset_path WP_20160218_004.jpg %}" width="800px" height="600px" title="Select Piece"/>
+  </p>
+  <p>
+   <img/>
+   <br/>
+   We can operate Vinyl Cutter using Fab Modules
+   <br/>
+   <strong>
+    Terminal&gt;fab
+   </strong>
+   <br/>
+   <img alt=" " src="{% asset_path vinyl3.png %}" width="800px" height="600px" title="Fab Module Vinyl"/>
+  </p>
+  <p>
+   Select png and Vinyl Cutter
+   <br/>
+   <img alt=" " src="{% asset_path ndm6.png %}" width="800px" height="600px" title="Fab Module"/>
+   <br/>
+   Then select the correct png file then check length and with is ok then make path and print
+  </p>
+  <p>
+   Print all the PNG files for each layers
+   <br/>
+   <img alt=" " src="{% asset_path WP_20160216_001.jpg %}" width="800px" height="600px" title="Vinyl Pieces"/>
+   <br/>
+   Then Peel unwanted portion using needle knife very carefully
+   <br/>
+   <img alt=" " src="{% asset_path WP_20160216_002.jpg %}" width="800px" height="600px" title="Peeling%}"/>
+  </p>
+  <p>
+   <img alt=" " src="{% asset_path WP_20160216_003.jpg %}" width="800px" height="600px" title="peel vinyl"/>
+   <br/>
+   Then Paste int to Laptop or any other smooth surface .
+  </p>
+  <p>
+   Then it looks like a Pacman Game
+  </p>
+  <p>
+   <a href="{% asset_path ink.sb">
+    Download Inkscape File
+   </a>
+  </p>
+  <h2 id="laser-cutting%}">
+   Laser Cutting
+  </h2>
+  <h3 id="press-fit-box">
+   Press Fit Box
+  </h3>
+  <p>
+   I designed a press fit box using My Favourite tool Antimony and i realized antimony have some limitations  but it is good for simple structures.
+  </p>
+  <p>
+   I created 6 sides of boxes as a cube then added small cubes 3 mm width for notches and teeth..
+   <br/>
+   This is the View of Antomy
+   <br/>
+   <img/>
+   <img alt=" " src="{% asset_path laser/2.png %}" width="800px" height="600px" title="Antimony"/>
+   <br/>
+   <img alt=" " src="{% asset_path laser/1.png %}" width="800px" height="600px" title="Anti 2"/>
+   <br/>
+   <strong>
+    Exporting PNG from Antomony
+   </strong>
+   <br/>
+   <img alt=" " src="{% asset_path laser/3.png%}" width="800px" height="600px" title="Heightmap"/>
+   <br/>
+   Antomy have an option to export “Heightmap Images” .png ,normally we are using this heightmap images for CNC Milling but i just tried it for laser cutting its working but need to do some additional works using inkscape
+   <br/>
+   <img alt=" " src="{% asset_path laser/4.png %}" width="800px" height="600px" title="Inkscape"/>
+   <img/>
+   <br/>
+   For laser Cutting we need Red Lines in antimony png image only black lines, i opened that .png in Inkscape  and Draw using pentool(red color) in top of black line after mapping all required lines i deleted the previous image file then i got all laser cutting lines in red color
+   <br/>
+   <img/>
+   <br/>
+   Then Ctrl+P print to laser cutter and placed a cardbord sheet in laser cutting machine,after adjusting z axis i printed it.
+   <br/>
+   <img/>
+   <br/>
+   after printing it joined all pieces in the shape of a box,it is not perfect i designed for 6mm acrylic sheet but cardboard have only 3mm thickness thats why got some extra notch length
+   <br/>
+   <img/>
+   <br/>
+   <img alt=" " src="{% asset_path laser/WP_20160218_007.jpg %}" width="800px" height="600px" title="Final "/>
+   <br/>
+   <img alt=" " src="{% asset_path laser/WP_20160218_013.jpg %}"  width="800px" height="600px" title="Final Inner"/>
+  </p>
+  <p>
+   <a href="{% asset_path anti.sb">
+    Download Antimony File
+   </a>
+  </p>
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
